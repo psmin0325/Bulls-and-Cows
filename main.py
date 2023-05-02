@@ -30,6 +30,9 @@ if __name__ == "__main__": # 난수 생성, 사용자 입력받아 위의 함수
     
     while True:
         user = input()
+        if len(set(list(map(int, list(user))))) != 4:
+            print('중복된 숫자가 있습니다.')
+            continue
         result(bulls_cows(n, user))
         if n == user:
             break
