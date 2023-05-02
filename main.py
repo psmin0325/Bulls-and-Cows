@@ -10,6 +10,6 @@ def result(res): # 결과를 출력해주는 함수
 
 if __name__ == "__main__": # 난수 생성, 사용자 입력받아 위의 함수들을 사용
     # random
-    num = generate_rand_num()
+    num = generate_rand_num
     print(num)
     # user.input()
