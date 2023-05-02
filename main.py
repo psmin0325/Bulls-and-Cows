@@ -1,7 +1,7 @@
 def bulls_cows(num, user): # bulls and cows 로직 구현
     res = [0, 0]
-    num = str(input())
-    user = str(input())
+    num = str(num)
+    user = str(user)
 
     if num == user:
         res = [4, 0]
